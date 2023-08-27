@@ -1,6 +1,6 @@
-# Write an SQL query that, for each year, displays the number of requests assigned to NYPD as 'NYPD_request_count' 
-# and compares it to the number of requests in the previous year, based on the structure of a data warehouse with one fact table 
-# (fact_service_quality) and four dimension tables (dim_agency, dim.request_typet, dim_borough and dim_year).
+-- Write an SQL query that, for each year, displays the number of requests assigned to NYPD as 'NYPD_request_count' 
+-- and compares it to the number of requests in the previous year, based on the structure of a data warehouse with one fact table 
+-- (fact_service_quality) and four dimension tables (dim_agency, dim.request_typet, dim_borough and dim_year).
 
 WITH A AS (
   SELECT year
