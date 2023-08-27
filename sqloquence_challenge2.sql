@@ -1,6 +1,6 @@
-# Write an SQL query to find, for each borough (borough_name), its most common request type and the total count of those requests as top_request_type, 
-#  along with the total_count value in a data warehouse with one fact table (fact_service_quality) and four dimension tables 
-# (dim_agency, dim.request_typet, dim_borough, and dim_year).
+-- Write an SQL query to find, for each borough (borough_name), its most common request type and the total count of those requests as top_request_type, 
+--  along with the total_count value in a data warehouse with one fact table (fact_service_quality) and four dimension tables 
+-- (dim_agency, dim.request_typet, dim_borough, and dim_year).
 
 
 WITH A AS (
