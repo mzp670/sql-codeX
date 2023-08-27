@@ -2,7 +2,6 @@
 --  along with the total_count value in a data warehouse with one fact table (fact_service_quality) and four dimension tables 
 -- (dim_agency, dim.request_typet, dim_borough, and dim_year).
 
-
 WITH A AS (
 SELECT 
   DISTINCT borough_name, 
